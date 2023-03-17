@@ -22,10 +22,8 @@ Shadowrocket:
 酷我音樂 = type=http-response,pattern=^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/kapionhau/Fly/main/Shdowrocket/Script/hukngo.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% *.kuwo.cn, *.lrts.me
-
-[MITM]
 hostname = *.kuwo.cn, *.lrts.me
+
 **************************/
 
 /* 
