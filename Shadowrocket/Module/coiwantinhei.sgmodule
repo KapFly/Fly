@@ -1,0 +1,9 @@
+#!name=彩雲天氣SVIP
+#!desc=解鎖彩雲天氣SVIP 2023-05-29
+#來源:https://github.com/mymoonyue/QuantumultX/blob/master/Scripts/scripts
+
+[Script]
+彩雲天氣_SVIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/KapFly/Fly/main/Script/scripts/coiwantinhei.js
+
+[MITM]
+hostname = %APPEND% biz.caiyunapp.com
