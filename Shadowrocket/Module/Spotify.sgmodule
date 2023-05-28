@@ -1,5 +1,5 @@
 #!name=Spotify(>=iOS15)
-#!desc=解鎖部分premium,重新登入,音質不能設置為超高
+#!desc=解鎖部分premium,重新登入,音質不能設置為超高 2023-05-29
 #來源：https://github.com/app2smile/rules
 # 1. 搜索界面 歌单/歌曲可以随意切换完全播放  2. 音乐库已点赞歌曲随意切换完全播放
 
