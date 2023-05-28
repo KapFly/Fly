@@ -6,20 +6,20 @@ ios>=15
 ***************************
 QuantumultX:
 [rewrite_local]
-^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/KapFly/Fly/main/Script/Spotify.js
+^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/KapFly/Fly/main//Shadowrocket/Script/Spotify.js
 [mitm]
 hostname = %APPEND% spclient.wg.spotify.com
 ***************************
 Surge4 or Loon:
 [Script]
-spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/KapFly/Fly/main/Script/Spotify.js,script-update-interval=0
+spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/KapFly/Fly/main//Shadowrocket/Script/Spotify.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% spclient.wg.spotify.com
 ***************************
 Shadowrocket:
 [Script]
-Spotify = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/KapFly/Fly/main/Script/Spotify.js,script-update-interval=0
+Spotify = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/KapFly/Fly/main//Shadowrocket/Script/Spotify.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% spclient.wg.spotify.com
