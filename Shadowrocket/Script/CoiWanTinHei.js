@@ -6,20 +6,20 @@
 ***************************
 QuantumultX:
 [rewrite_local]
-^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/KapFly/Fly/main/Shadowrocket/Script/coiwantinhei.js
+^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/KapFly/Fly/main/Shadowrocket/Script/CoiWanTinHei.js
 [MITM]
 hostname = %APPEND% biz.caiyunapp.com
 ***************************
 Surge4 or Loon:
 [Script]
-彩雲天氣_SVIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/KapFly/Fly/main/Shadowrocket/Script/coiwantinhei.js
+彩雲天氣_SVIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/KapFly/Fly/main/Shadowrocket/Script/CoiWanTinHei.js
 
 [MITM]
 hostname = %APPEND% biz.caiyunapp.com
 ***************************
 Shadowrocket:
 [Script]
-彩雲天氣_SVIP = type=http-response,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/KapFly/Fly/main/Shadowrocket/Script/coiwantinhei.js,script-update-interval=0
+彩雲天氣_SVIP = type=http-response,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/KapFly/Fly/main/Shadowrocket/Script/CoiWanTinHei.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% biz.caiyunapp.com
