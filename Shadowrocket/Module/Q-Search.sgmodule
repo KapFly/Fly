@@ -5,6 +5,7 @@
 #輸入框內輸入 命令 + 空格 + 關鍵詞 快速指定搜索引擎搜索
 #注:需先將DuckDuckGo設置為默認搜索引擎
 
+[URL Rewrite]
 # ＞搜索 (Q-Search - 快速搜索)
 # gm   (Google圖片)
 ^https:\/\/duckduckgo.com\/\?q=gm(\+|%20)([^&]+).+ https://www.google.com/search?&tbm=isch&q=$2 302
