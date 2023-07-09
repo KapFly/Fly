@@ -1,4 +1,4 @@
-# 更新時間:2023-03-06
+# 更新時間:2023-07-09
 #海外加速
 
 # Amazon
@@ -350,6 +350,11 @@ DOMAIN-SUFFIX,ocnttv.com
 # 綜合影視站解析
 DOMAIN,m3u.haiwaikan.com
 DOMAIN,cdn.ceres9350.com
+DOMAIN,cdn2.ceres9350.com
+DOMAIN,c.biggggg.com
+DOMAIN-SUFFIX,bfzycdn.com
+DOMAIN,cdn2.efhie.com
+DOMAIN,cdn.efhie.com
 
 # 泥巴影院
 DOMAIN-SUFFIX,nivod.tv
@@ -358,11 +363,15 @@ DOMAIN,m.nbys.tv
 DOMAIN,mudvod.tv
 DOMAIN,api.nivodz.com
 DOMAIN-SUFFIX,vod360.net
+DOMAIN,api.fhjasokiwq.com
 
 # 唐人街影院
 DOMAIN-SUFFIX,tangrenjie.tv
-DOMAIN,cdn.efhie.com
 DOMAIN,vip.ffzy-online5.com
+
+# 星視界
+DOMAIN-SUFFIX,histar.tv
+DOMAIN,aws.ulivetv.net,
 
 # 7喜影院(不穩定連接)
 DOMAIN-SUFFIX,7xi.tv
